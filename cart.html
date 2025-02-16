@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customize Your Coaching</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Select Your Coaching Package</h1>
+    </header>
+    <main>
+        <form id="coaching-form">
+            <fieldset>
+                <legend>Choose Your Services:</legend>
+                <label>
+                    <input type="checkbox" name="service" value="Body Transformations" data-price="150">
+                    Body Transformations ($150)
+                </label><br>
+                <label>
+                    <input type="checkbox" name="service" value="Faith Growth" data-price="100">
+                    Faith Growth ($100)
+                </label><br>
+                <label>
+                    <input type="checkbox" name="service" value="Life Coaching" data-price="120">
+                    Life Coaching ($120)
+                </label>
+            </fieldset>
+            <p>Total Cost: $<span id="total-cost">0</span></p>
+            <button type="submit">Submit Request</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 [Your Name] Coaching</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
